@@ -1,0 +1,201 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background: url(../images/starwarsbehind.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:rgb(243, 95, 243);
+    margin-left: 8%;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+div.character:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+button{
+    font-family: 'Titillium Web', sans-serif;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: transparent;
+    color:rgb(243, 95, 243);
+    border: solid 3px rgb(243, 95, 243);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 8px 10px;
+    width: 140px;
+    margin: 10px;
+    outline: none;
+    float: inherit;
+    font-weight: 100;
+    outline: none;
+}
+
+button:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgb(243, 95, 243);
+    border: solid 2px rgb(243, 95, 243);
+    color: black;
+    font-weight: 100px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+#attack-button{
+    font-family: 'Titillium Web', sans-serif;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: transparent;
+    color:rgb(243, 95, 243);
+    border: solid 3px rgb(243, 95, 243);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 8px 10px;
+    width: 140px;
+    margin: 10px;
+    outline: none;
+    float: inherit;
+    font-weight: 100;
+    outline: none;
+}
+
+#attack-button:hover{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgb(243, 95, 243);
+    border: solid 2px rgb(243, 95, 243);
+    color: black;
+    font-weight: 100px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.active:hover {
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+    -moz-transition: all 1s ease-in;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+
+
+.main-section-title{
+    font-size: 600%;
+    text-align: left;
+}
+
+span{
+    animation-duration: 15s;
+    animation-fill-mode: both;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash{
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+.animated{
+animation-duration: 3s;
+animation-fill-mode: both;
+}
+
+.flashanimated{
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+.flashanimated{
+animation-duration: 3s;
+animation-fill-mode: both;
+}
+
+#animationsandbox {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+#animationsandbox{
+animation-duration: 3s;
+animation-fill-mode: both;
+}
+
+
+.section-title{
+    font-size:200%;
+}
+
+.character {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(243, 95, 243);;
+    border-width: 3px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.character-image{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.character-name { text-align: center; }
+.character-health { text-align: center;}
